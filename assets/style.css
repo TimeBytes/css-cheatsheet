@@ -1,0 +1,14 @@
+:root {
+    --purple: rgb(232, 103, 237);
+    --text: #fff;
+}
+
+body {
+    background-color: rgb(51, 57, 64);
+}
+
+h1,
+h2,
+p {
+    color: var(--text);
+}
