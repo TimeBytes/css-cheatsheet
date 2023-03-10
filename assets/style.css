@@ -6,16 +6,29 @@ body {
     background-color: rgb(51, 57, 64);
 }
 
+header {
+    margin: 0 auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 75%;
+    margin: 0 auto;
+}
+
 section {
     display: inline;
     border-style: dashed;
     border-width: 3px;
     border-color: white;
-    margin: 5px;
+    margin: 30px;
+    padding: 20px;
+    justify-content: space-around;
 }
 
 h1,
-h2{
+h2 {
     color: var(--purple);
 }
 
@@ -23,6 +36,6 @@ header p {
     color: var(--purple);
 }
 
-p{
+p {
     color: white;
 }
