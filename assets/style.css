@@ -1,14 +1,28 @@
 :root {
     --purple: rgb(232, 103, 237);
-    --text: #fff;
 }
 
 body {
     background-color: rgb(51, 57, 64);
 }
 
+section {
+    display: inline;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: white;
+    margin: 5px;
+}
+
 h1,
-h2,
-p {
-    color: var(--text);
+h2{
+    color: var(--purple);
+}
+
+header p {
+    color: var(--purple);
+}
+
+p{
+    color: white;
 }
